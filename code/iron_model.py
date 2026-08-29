@@ -6,8 +6,7 @@ if __name__ == "__main__":
 
     print("Current folder:", os.getcwd())
 
-    model_file = "Lactobacillus_plantarum_WCFS1.xml"
-
+model_file = "../model/Lactobacillus_plantarum_WCFS1.xml" 
     print("Loading AGORA2 model...")
 
     model = cobra.io.read_sbml_model(model_file)
